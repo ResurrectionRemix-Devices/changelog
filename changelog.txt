@@ -1,0 +1,261 @@
+Resurrection Remix Q Ver 8.6.8 Changelog
+
+
+   * frameworks/base
+a2f3b4a0ff75 FODCircleView: detect touch outside and take action accordingly
+
+====================
+     04-28-2021
+====================
+
+
+   * device/oneplus/sm8150-common
+5d512996 sm8150-common: Enable ro.audio.monitorRotation
+579d74f4 sm8150-common: Build and enable fastbootd
+568e85c5 Automatic translation import
+c3794bcb Bump vendor security patch
+
+   * frameworks/base
+26222c5d4761 port bluetooth timeout setting from calyxOS [2/2] (#295)
+
+   * packages/apps/Settings
+099401eb2c Merge pull request #1293 from Bush-cat/patch-1
+45aaa145ce Merge pull request #1294 from Bush-cat/Q
+
+====================
+     04-27-2021
+====================
+
+
+   * device/oneplus/hotdog
+ccf67b4 Revert "hotdog: Build fastbootd"
+
+   * lineage/mirror
+dac64e9 Updated aosp-minimal to 27-Apr-2021 12:01 UTC
+
+====================
+     04-26-2021
+====================
+
+
+====================
+     04-25-2021
+====================
+
+
+   * android
+f14fbd7 Merge pull request #153 from Joker-V2/Q
+8da08be Track our own fork(s) for 2021-04 ASB patching
+2b5b3f1 Merge pull request #152 from Joker-V2/Q
+
+   * build/make
+67487903b Bump Security String to 2021-04-05
+a1f238319 envsetup: Fix the way we check check_product's return value
+63b6acbcc soong: add TARGET_SPECIFIC_HEADER_PATH
+3365f1ec7 Merge pull request #69 from Joker-V2/Q
+
+   * build/soong
+e493a48f Merge remote-tracking branch 'LineageOS/lineage-17.1' into HEAD
+
+   * frameworks/av
+ad7de5152 Fix double free of play policy in a race condition.
+5b96b48f3 Fix potential decrypt src pointer overflow.
+
+   * frameworks/base
+47c66c887663 fixup! Update the getIccId docs to reflect access requirements
+c8a36bb904c8 Close screenshot process on user switched
+fd93367d52e3 extend font size scale range
+a62d548f24e8 DO NOT MERGE: Do not inject mock location to chipset
+ffa10e643cee Add method to clear out SubscriptionInfo#getCardString
+28e0faa434b1 Whitelist READ_PRIVILEGED_PHONE_STATE for the contacts provider
+9a3ec9d09217 Update the getIccId docs to reflect access requirements
+c41b169369af DO NOT MERGE: WM: Only allow system to use NO_INPUT_CHANNEL.
+3c31bcdedb54 RESTRICT AUTOMERGE Allow CDM to hide overlays
+3f6a5d0b497e RESTRICT AUTOMERGE Prevent non-system overlays from showing over CDM UI
+e8c4162faa80 VolumeDialogImpl: Don't vibrate when volume dialog is not visible
+07267332fe5c Merge pull request #296 from Joker-V2/Q
+
+   * frameworks/native
+8bbe4b4d4 Merge remote-tracking branch 'LineageOS/lineage-17.1' into Q-sm8150
+
+   * frameworks/opt/telephony
+ad509ef34 Remove unecessary locking to avoid dead lock.
+824c5eb7b Move permission checks out of synchronized block
+151cd9ad3 Guard ICC ID card string behind new identifier access requirements
+d49e0d93a Guard ICC ID behind new identifier access requirements
+
+   * lineage/hudson
+0f4e8f4 Promote jason to 18.1
+
+   * lineage/mirror
+65fec70 Updated to 25-Apr-2021 12:00 UTC
+
+   * lineage/wiki
+e3dc817b wiki: devices: promote jason to 18.1
+
+   * packages/apps/Contacts
+c124d45b6 Prevent overlays on vCard import flows
+98b75ab44 Stop returning intent data in QuickContact in onActivityResult
+3bd1fe5ab Automatic translation import
+
+   * packages/apps/Settings
+29b4221a12 Bump version
+
+   * system/bt
+30268bc7b Merge remote-tracking branch 'LineageOS/lineage-17.1' into HEAD
+41622afd9 Merge pull request #2 from Joker-V2/Q
+
+   * vendor/qcom/opensource/commonsys/system/bt
+75c53b797 Merge remote-tracking branch 'LineageOS/lineage-17.1' into HEAD
+
+   * vendor/rr
+3fc36049 Merge pull request #135 from Joker-V2/Q
+
+====================
+     04-24-2021
+====================
+
+
+====================
+     04-23-2021
+====================
+
+
+====================
+     04-22-2021
+====================
+
+
+   * lineage/mirror
+1d702f0 Updated to 22-Apr-2021 00:12 UTC
+d403946 Updated to 21-Apr-2021 17:55 UTC
+4a0a5fb Updated to 21-Apr-2021 17:23 UTC
+a0ec6ef Updated to 21-Apr-2021 17:14 UTC
+
+   * tools/repohooks
+2163340 utils: run: fix crash with failing tools & combined stderr
+
+====================
+     04-21-2021
+====================
+
+
+   * external/chromium-webview
+729ee65 Update Chromium Webview to 90.0.4430.82
+
+   * lineage/wiki
+3cd9dc9f wiki: devices: Remove channels flag from Z01R
+
+====================
+     04-20-2021
+====================
+
+
+   * lineage/hudson
+3923d73 hudson: promote Z01R to 18.1
+
+   * lineage/mirror
+9ac85ea Updated aosp-minimal to 20-Apr-2021 12:01 UTC
+
+   * lineage/wiki
+d2bb499b wiki: devices: promote Z01R to 18.1
+1ae994c0 wiki: Update signing builds instructions
+
+====================
+     04-19-2021
+====================
+
+
+   * packages/apps/Etar
+e8b4abc2 Automatic translation import
+a2b30a2e Automatic translation import
+
+   * packages/apps/Exchange
+24b97887 Automatic translation import
+19f46a3d Automatic translation import
+
+   * packages/apps/FMRadio
+083683d Automatic translation import
+3eedce6 Automatic translation import
+
+   * packages/apps/FlipFlap
+4f708e3 Automatic translation import
+919f2a2 Automatic translation import
+
+   * packages/apps/Snap
+7a4fcfa16 Automatic translation import
+7be96009c Automatic translation import
+
+   * packages/inputmethods/LatinIME
+4acf30d4b Automatic translation import
+765ba497f Automatic translation import
+
+   * packages/resources/devicesettings
+3158c32 Automatic translation import
+8e978df Automatic translation import
+
+   * vendor/qcom/opensource/fm-commonsys
+cf4a6b3 Automatic translation import
+c10489d Automatic translation import
+
+====================
+     04-18-2021
+====================
+
+
+====================
+     04-17-2021
+====================
+
+
+   * lineage/hudson
+2c0caee hlte up in here
+b8429fb Yet another klte* device? ohgodwhy
+e70d417 Where the klte at?
+
+   * lineage/mirror
+4716615 Updated aosp-minimal to 17-Apr-2021 12:01 UTC
+
+   * lineage/wiki
+a2fdaebf wiki: devices: Promote active hlte-family devices to 18.1
+da5cbe86 wiki: devices: Add klteaio
+78f3afce wiki: devices: Promote active klte-family devices to 18.1
+0a700833 wiki: Remove 'get lineage' heading when device is unsupported
+
+====================
+     04-16-2021
+====================
+
+
+   * lineage/mirror
+1cf150d Updated aosp-minimal to 16-Apr-2021 12:01 UTC
+f896566 Updated to 15-Apr-2021 14:18 UTC
+
+   * lineage/wiki
+9f0bec2a wiki: Improve search result container positioning
+33121cc4 wiki: Include addons signature warning for all A/B devices
+
+====================
+     04-15-2021
+====================
+
+
+   * device/oneplus/sdm845-common
+52051e2 sdm845-common: KeyHandler: Do nothing when action != ACTION_DOWN
+
+   * lineage/hudson
+b738134 hudson: Promote LG G3 family to 18.1
+
+   * lineage/wiki
+349ebff0 wiki: Promote LG G3 family to 18.1
+
+   * tools/repohooks
+95795d8 lint: clean up newer pylint warnings
+bfa656d utils: run: fix file leakage with bad execs
+a89a138 utils: run: make sure exceptions always use strings for output
+
+====================
+     04-14-2021
+====================
+
+
